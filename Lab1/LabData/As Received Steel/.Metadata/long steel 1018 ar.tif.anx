@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<DXBasicAnnotationSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.leica.com">
+  <IsShowBasicAnnotation>false</IsShowBasicAnnotation>
+  <IsBurnIn>false</IsBurnIn>
+  <HasPendingBurnIn>false</HasPendingBurnIn>
+  <HasPendingImageDescription>false</HasPendingImageDescription>
+  <PendingImageDescription />
+  <IsShowBasicImageName>false</IsShowBasicImageName>
+  <IsShowBasicImageDes>false</IsShowBasicImageDes>
+  <IsShowBasicImageDate>false</IsShowBasicImageDate>
+  <IsShowBasicImageTime>false</IsShowBasicImageTime>
+  <IsShowBasicLine>false</IsShowBasicLine>
+  <IsAutoSizeEnabled>true</IsAutoSizeEnabled>
+  <ArrowLineLabelText />
+  <LineWidth>2.53125</LineWidth>
+  <EndBarLength>50.625</EndBarLength>
+  <ImageSize>
+    <Width>2592</Width>
+    <Height>1944</Height>
+  </ImageSize>
+  <ImageDescription />
+  <Alpha>0</Alpha>
+  <RotationAngle>0</RotationAngle>
+  <IsShowZoomFactor>false</IsShowZoomFactor>
+  <ZoomFactor>0</ZoomFactor>
+  <IsShowActualSize>false</IsShowActualSize>
+  <IsSnapToOrigin>false</IsSnapToOrigin>
+  <RenderMode>Normal</RenderMode>
+  <LabelFont>
+    <Size>35.4375</Size>
+    <Name>Arial</Name>
+    <Style>Regular</Style>
+  </LabelFont>
+  <LineColour>-65536</LineColour>
+  <LabelTextColor>-1</LabelTextColor>
+  <LabelBackgroundColor>-10144213</LabelBackgroundColor>
+  <ImageNameTool>
+    <Points>
+      <Point2>
+        <X>64.800000965595245</X>
+        <Y>1885.6800013035536</Y>
+      </Point2>
+    </Points>
+  </ImageNameTool>
+  <ImageDescriptionTool>
+    <Points />
+  </ImageDescriptionTool>
+  <ImageDateTimeTool>
+    <Points>
+      <Point2>
+        <X>2527.1999990344048</X>
+        <Y>58.319998696446419</Y>
+      </Point2>
+    </Points>
+  </ImageDateTimeTool>
+  <BasicLineTool xsi:nil="true" />
+  <Calibration>
+    <Units>µm</Units>
+    <MetresPerPixel>8.5454541986638836E-08</MetresPerPixel>
+  </Calibration>
+</DXBasicAnnotationSettings>
