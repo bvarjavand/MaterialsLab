@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  29 SEP 2016 20:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  29 SEP 2016 21:06
 entering extended mode
 **./errorprop.tex
 (errorprop.tex
@@ -352,27 +352,28 @@ Package pdftex.def Info: Lab1f3.png used on input line 24.
 {C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Lab1f1.pn
 g (PNG copy)> <./Lab1f3.png (PNG copy)>] [2] (errorprop.aux) ) 
 Here is how much of TeX's memory you used:
- 1355 strings out of 493634
- 17396 string characters out of 3135240
- 73335 words of memory out of 3000000
- 4767 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
+ 1359 strings out of 493634
+ 17441 string characters out of 3135240
+ 83335 words of memory out of 3000000
+ 4770 multiletter control sequences out of 15000+200000
+ 7280 words of font info for 26 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,8n,19p,223b,264s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Bijan/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
 Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bijan/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bijan/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/B
-ijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b>
-Output written on errorprop.pdf (2 pages, 148434 bytes).
+ex10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bijan/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users
+/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
+b><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on errorprop.pdf (2 pages, 160613 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
