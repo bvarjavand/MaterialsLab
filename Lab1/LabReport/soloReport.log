@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  30 SEP 2016 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  30 SEP 2016 02:02
 entering extended mode
 **./soloReport.tex
 (soloReport.tex
@@ -295,8 +295,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-)
-No file soloReport.aux.
+) (soloReport.aux)
 \openout1 = `soloReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -338,25 +337,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--15
 
  []
 
+<Lab1f1.png, id=1, 421.575pt x 316.18124pt>
+File: Lab1f1.png Graphic file (type png)
+ <use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 27.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (16.07094pt too wide) in paragraph at lines 27--28
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+File: Lab1f1.png Graphic file (type png)
+<use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 31.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (16.07094pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+File: Lab1f1.png Graphic file (type png)
+<use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 35.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (16.07094pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+File: Lab1f1.png Graphic file (type png)
+<use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 44.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [1
 
-{C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(soloReport.aux) ) 
+{C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Lab1f1.pn
+g (PNG copy)>]
+File: Lab1f1.png Graphic file (type png)
+ <use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 58.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+File: Lab1f1.png Graphic file (type png)
+ <use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 62.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 56--64
+[]$[]$ $[]$ 
+ []
+
+[2]
+File: Lab1f1.png Graphic file (type png)
+ <use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 77.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (16.07094pt too wide) in paragraph at lines 77--78
+ [][] 
+ []
+
+File: Lab1f1.png Graphic file (type png)
+<use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 81.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (16.07094pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+File: Lab1f1.png Graphic file (type png)
+<use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 85.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (16.07094pt too wide) in paragraph at lines 85--86
+ [][] 
+ []
+
+File: Lab1f1.png Graphic file (type png)
+<use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 113.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+File: Lab1f1.png Graphic file (type png)
+ <use Lab1f1.png>
+Package pdftex.def Info: Lab1f1.png used on input line 117.
+(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 111--119
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4] (soloReport.aux) ) 
 Here is how much of TeX's memory you used:
- 1339 strings out of 493634
- 17202 string characters out of 3135240
- 71340 words of memory out of 3000000
- 4756 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
+ 1358 strings out of 493634
+ 17436 string characters out of 3135240
+ 74340 words of memory out of 3000000
+ 4769 multiletter control sequences out of 15000+200000
+ 7895 words of font info for 28 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,19p,224b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bijan/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on soloReport.pdf (1 page, 39355 bytes).
+ 27i,8n,19p,789b,260s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bijan/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Bijan/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on soloReport.pdf (4 pages, 105186 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
