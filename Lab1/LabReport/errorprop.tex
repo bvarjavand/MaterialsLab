@@ -3,16 +3,32 @@
 \usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
 
-\author{Bijan Varjavand}
-\title{Lab Write-up}
+\author{Bijan Varjavand, Grace Hao, Kevin Necochea}
+\title{Error Analysis - How Stiff is Spaghetti}
 
 \begin{document}
 
 \maketitle
+\ \\[2in]
+\centering
+\section{Abstract}
+Mastering basic lab techniques, such as error analysis and dimensionless analysis, is a necessity for Materials Science and Engineering students. By thinking critically about the factors which affect the buckling force of spaghetti with different radii and lengths, we apply skills acquired in the classroom to a practical situation. We learned and used specific techniques in order to quantify unique, mechanical properties of different types of spaghetti. The properties of spaghetti in question are the tensile strength and stiffness. The main technique used was measurement of mass, radii, and length in order to determine the buckling force. However, there is an uncertainty associated with every measurement in this experiment. Error analysis is especially important to our calculations because of our lack of precision and, or accuracy in conducting the measurements. 
 
+\clearpage
+
+\raggedright
+\linespread{1.5}
 \section{Introduction}
+\ \ \ \ \ Spaghetti is a staple in many diets around the world due to its presence in a variety of pasta dishes. This long, cylindrical pasta is a healthy source of carbohydrates, protein and other vitamins.
 
-blah1
+\ \ \ \ \ Most spaghetti is made from ground grain and water, a mixture which is then dried and packaged for exportation. Distributors must understand the mechanical properties associated with spaghetti in order to limit losses in packaging and processing the material. To accomplish this, they spend time and resources researching how to optimize the mechanical properties of dried spaghetti. Wet and dried spaghetti have very different mechanical properties. Distributors are aware and, thereby, take this into account when generating the final product.
+
+\ \ \ \ \ In schools, teachers choose spaghetti for science projects because it can be used to learn about how materials bend, a subject in which engineers and materials scientists are very interested. Unlike steel beams, spaghetti is highly affordable and it can help students understand concepts such as tension and compression, concepts which can be applied to any material, not just spaghetti. Spaghetti also exhibits visual response to reasonable levels of stress in classrooms.
+
+\ \ \ \ \ In this laboratory experiment, we worked with spaghetti because fairly correct measurements of its mechanical properties can be easily obtained without the need of expensive equipment. We calculated the buckling force associated with three different types of spaghetti at various lengths through compression testing, which can be useful in providing properties such as yield strength, elastic modulus, and ultimate strength.
+
+\ \ \ \ \ Columns under compressive stress can fail in two ways: buckling and crushing. Buckling occurs when a column fails due to bending at a working stress that is less than the ultimate direct stress of the material in question. At this bending point, the force applied can be referred to as the buckling force.
+The equation for the buckling force, P, is $$P=E3D464L2$$ where E is the Young’s modulus of the material, L is the length of the sample, and D is its diameter. An important mechanical property, the Young’s modulus is a measure of stiffness of an elastic material, and it can be used to predict elongation or compression.
 
 \section{Error Analysis}
 
@@ -23,14 +39,16 @@ $$E = \frac{4PL^2}{\pi ^3D^4}$$
 We can confirm the powers by plotting the data on log scales.
 
 \begin{figure}[h]
-	\centering
 	\begin{minipage}{0.5\textwidth}
+		\centering
 		\includegraphics[scale=0.3]{Lab1f1.png}
+		\caption{Average for slopes = -2.1}
 	\end{minipage}%
 	\begin{minipage}{0.5\textwidth}
+		\centering
 		\includegraphics[scale=0.3]{Lab1f3.png}
+		\caption{Average for slopes = 3.6}
 	\end{minipage}
-	\caption{Averages for the slopes = -2.1 and 3.6}
 \end{figure}
 
 Solving for E using our equation, we get 30 values from all our data points. Averaging the E values, we get 2.32 GPa.
