@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  3 OCT 2016 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  4 OCT 2016 00:24
 entering extended mode
 **./LabNotebook9-8-2016.tex
 (LabNotebook9-8-2016.tex
@@ -332,25 +332,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
- [1
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+ ("C:\Users\Bijan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 33.
+[1
 
-{C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 (LabNotebook9-8-2016.aux) ) 
 Here is how much of TeX's memory you used:
- 1341 strings out of 493634
- 17320 string characters out of 3135240
- 70351 words of memory out of 3000000
- 4756 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
+ 1365 strings out of 493634
+ 17738 string characters out of 3135240
+ 74360 words of memory out of 3000000
+ 4776 multiletter control sequences out of 15000+200000
+ 7587 words of font info for 27 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,19p,233b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,19p,589b,199s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bijan/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on LabNotebook9-8-2016.pdf (1 page, 32158 bytes).
+nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bijan/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Bijan/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on LabNotebook9-8-2016.pdf (2 pages, 74474 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 33 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
