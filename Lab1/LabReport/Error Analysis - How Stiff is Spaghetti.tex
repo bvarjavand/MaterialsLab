@@ -2,11 +2,12 @@
 \usepackage{times}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.9in]{geometry}
 
 \setlength{\parindent}{4em}
 \setlength{\parskip}{1em}
 \renewcommand{\baselinestretch}{1.5}
+\newcommand\tab[1][1.5cm]{\hspace*{#1}}
 
 \author{Bijan Varjavand, Grace Hao, Kevin Necochea}
 \title{Error Analysis - How Stiff is Spaghetti\\Group 2d}
@@ -17,78 +18,68 @@
 \ \\[0.2in]
 \renewcommand{\baselinestretch}{1.0}
 \section{Abstract}
-\centering
-Mastering basic lab techniques, such as error analysis and dimensionless analysis, is a necessity for Materials Science and Engineering students. By thinking critically about the factors which affect the buckling force of spaghetti with different radii and lengths, we apply skills acquired in the classroom to a practical situation. We learned and used specific techniques in order to quantify unique, mechanical properties of different types of spaghetti. The properties of spaghetti in question are the tensile strength and stiffness. The main technique used was measurement of mass, radii, and length in order to determine the buckling force. Our buckling force was $2.32 GPa \pm 0.22 GPa$, which was very different than the expected value 5GPa. However, there is an uncertainty associated with every measurement in this experiment. Error analysis is especially important to our calculations because of our lack of precision and, or accuracy in conducting the measurements.
+This lab was focused on quantifying error associated with the determination of Young’s Modulus of spaghetti experimentally. The main technique used was measurement of mass, radii, and length in order to determine the buckling force that is associated with the tensile strength and stiffness. Euler’s buckling equation relates the force it takes for a material, in this case spaghetti, to start buckling is proportional diameter of the material, but inversely proportional to the length of the material.  The exponent, m, which the diameter is raised to has an accepted value of 4 and the exponent which the length, n, is raised to has an accepted value of -2. We obtained a m value of -2.1 $\pm$ 0.33 and a n value 3.6 $\pm$ 0.52. From this we determined the Young’s modulus to be 2.32 $\pm$ 0.22 GPa, while the accepted value of Young’s modulus of spaghetti is 5GPa.  
 
 \clearpage
 
-\raggedright
 \linespread{1.6}
 \renewcommand{\baselinestretch}{1.5}
 \section{Introduction}
-Spaghetti is a staple in many diets around the world due to its presence in a variety of pasta dishes. This long, cylindrical pasta is a healthy source of carbohydrates, protein and other vitamins.
-
-Most spaghetti is made from ground grain and water, a mixture which is then dried and packaged for exportation. Distributors must understand the mechanical properties associated with spaghetti in order to limit losses in packaging and processing the material. To accomplish this, they spend time and resources researching how to optimize the mechanical properties of dried spaghetti. Wet and dried spaghetti have very different mechanical properties. Distributors are aware and, thereby, take this into account when generating the final product.
-
-The mechanical properties of a material are those properties that involve a reaction to an applied load. Engineers and manufacturers investigate how materials deform to these loads under certain conditions such as time and temperature. The results obtained might be different depending on the size and shape of tested sample, and even the procedure used to test the properties. Therefore, the ASTM has standard procedures that everyone uses.
-
-In schools, teachers choose spaghetti for science projects because it can be used to learn about how materials bend, a subject in which engineers and materials scientists are very interested. Unlike steel beams, spaghetti is highly affordable and it can help students understand concepts such as tension and compression, concepts which can be applied to any material, not just spaghetti. Spaghetti also exhibits visual response to reasonable levels of stress in classrooms.
-
-In this laboratory experiment, we worked with spaghetti because fairly correct measurements of its mechanical properties can be easily obtained without the need of expensive equipment. We calculated the buckling force associated with three different types of spaghetti at various lengths through compression testing, which can be useful in providing properties such as yield strength, elastic modulus, and ultimate strength.
-
-Also known as Young's modulus, the elastic modulus numerically defines a substance's resistance to being deformed elastically under an applied load. The technical definition is the ratio of stress to strain. Because strain is dimensionless, the units of a material's Young's modulus are in pressure units, such as Pa. The elastic modulus of a material lets us predict how much a sample extends under tension or shortens under compression. From Callister, we found a diagram that explains it well.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[scale=0.3]{Lab1YM.png}
-\end{figure}
-
-Columns under compressive stress can fail in two ways: buckling and crushing. Buckling occurs when a column fails due to bending at a working stress that is less than the ultimate direct stress of the material in question. At this bending point, the force applied can be referred to as the buckling force. An important mechanical property, the Young's modulus is a measure of stiffness of an elastic material, and it can be used to predict elongation or compression.
-
+\tab Spaghetti is a staple in many diets around the world due to its presence in a variety of pasta dishes. This long, cylindrical pasta is a healthy source of carbohydrates, protein and other vitamins.\\
+\tab Most spaghetti is made from ground grain and water, a mixture which is then dried and packaged for exportation. Distributors must understand the mechanical properties associated with spaghetti in order to limit losses in packaging and processing the material. To accomplish this, they spend time and resources researching how to optimize the mechanical properties of dried spaghetti. Wet and dried spaghetti have very different mechanical properties. Distributors are aware and, thereby, take this into account when generating the final product.\\
+\tab The mechanical properties of a material are those properties that involve a reaction to an applied load. Engineers and manufacturers investigate how materials deform to these loads under certain conditions such as time and temperature. The results obtained might be different depending on the size and shape of tested sample, and even the procedure used to test the properties. Therefore, the ASTM has standard procedures that everyone uses.\\
+\tab In schools, teachers choose spaghetti for science projects because it can be used to learn about how materials bend, a subject in which engineers and materials scientists are very interested. Unlike steel beams, spaghetti is highly affordable and it can help students understand concepts such as tension and compression, concepts which can be applied to any material, not just spaghetti. Spaghetti also exhibits visual response to reasonable levels of stress in classrooms.\\
+\tab In this laboratory experiment, we worked with spaghetti because fairly correct measurements of its mechanical properties can be easily obtained without the need of expensive equipment. We calculated the buckling force associated with three different types of spaghetti at various lengths through compression testing, which can be useful in providing properties such as yield strength, elastic modulus, and ultimate strength.\\
+\tab Also known as Young's modulus, the elastic modulus numerically defines a substance's resistance to being deformed elastically under an applied load. The technical definition is the ratio of stress to strain. Because strain is dimensionless, the units of a material's Young's modulus are in pressure units, such as Pa. The elastic modulus of a material lets us predict how much a sample extends under tension or shortens under compression. From Callister, we found a diagram that explains it well.\\
+\tab Columns under compressive stress can fail in two ways: buckling and crushing. Buckling occurs when a column fails due to bending at a working stress that is less than the ultimate direct stress of the material in question. At this bending point, the force applied can be referred to as the buckling force. When this critical load is reached, we can use the following equation to draw a relationship between the buckling load P, Young’s Modulus E, and the rod’s dimensions, which include the radius R and the length L:
+$$P = \frac{E\pi^3R^4L^{-2}}{4}$$
+\tab An important mechanical property, the Young's modulus is a measure of stiffness of an elastic material, and it can be used to predict elongation or compression.
 
 \section{Procedure}
 
-Our group acquired spaghetti from 3 different boxes - each box contained a different thickness of spaghetti. The thicknesses of the three spaghetti types were measured with calipers, and their lengths were measured with a meter stick. The spaghetti were placed on top of scales, and the weight required to generate a deflection of the spaghetti was measured. The measurements for required weight of noticeable deflection of spaghetti was done repeatedly on the same piece - as 2cm pieces were incrementally cut off. The lengths and weights were recorded, and were used to generate the tables in our appendix.
+\tab Our group acquired spaghetti from 3 different boxes - each box contained a different thickness of spaghetti. The thicknesses of the three spaghetti types were measured with calipers, and their lengths were measured with a meter stick. The spaghetti were placed on top of scales, and the weight required to generate a deflection of the spaghetti was measured. The measurements for required weight of noticeable deflection of spaghetti was done repeatedly on the same piece - as 2cm pieces were incrementally cut off. The lengths and weights were recorded, and were used to generate the tables in our appendix.
 
 \section{Results and Discussion}
 
-Three pasta type of ten samples each were tested in order to prove the buckling equation
-$$P=\frac{\pi ^3E^3D^4L^{-2}}{4}$$
-Particularly the exponents of the diameter, m, and the length, n. After testing three different pasta at various lengths, we plotted the log of length vs log of force, which yielded an average slope of -2.1 for n (Fig. 1). This is very close to the expected slope of -2. The log of radius vs log of force plot yielded an average slope of 3.6 for m (Fig. 2), which is somewhat close to the expected slope of 4. We then used our data generated in lab and the buckling equation to solve for the Young's Modulus $$E=\frac{4P^3D^mL^n}{\pi ^3}$$. We averaged the Young's modulus associated with the different lengths and types of pasta to get a Young's Modulus of $2.32 GPa \pm 0.22 GPa$. The Young's Modulus of spaghetti is 5.0 GPa (expected). Our results differed greatly, with a factor of 2, compared to the literature value of spaghetti.
+\tab Three pasta type of ten samples each were tested in order to prove the buckling equation
+\begin{equation}
+P=\frac{\pi ^3E^3D^4L^{-2}}{4}
+\end{equation}
 
-Although our Young's Modulus was very precise, it was highly inaccurate because of how it deviates from the literature values. This is due to inaccuracy of which we were conducting the experiment to measure the buckling force. We used calipers to measure diameter of the different types of spaghetti, which has an uncertainty of 0.5mm, making this measurement highly accurate. However, the scale had an uncertainty of 0.001kg associated with it, which is similar to the weight of the heaviest pasta strand we measured (0.0012kg).The scale's uncertainty was a major contributor to the error that happened within this experiment as well as human error.  To find the n value of the buckling of spaghetti, we measured various lengths using a ruler that had an uncertainty of 0.05cm. The main error in our measurements was from the visual detection of noticeable deflection in spaghetti. A person cannot judge by eye the same exact bending in the spaghetti and record the weight that is exerted associated with the bending. We also had a different person measure the buckling force for each type of spaghetti. Not only is each person’s judgement of the buckling force extremely different, but we also cut the spaghetti differently, with two people using a knife, while another measured the 2cm increment and broke spaghetti at the marked spot. We didn't expect our values to be close the literature value of spaghetti because before starting the experiment, we noted how large human error and the scale inaccuracy would be in this experiment. The preciseness of our measurement shows that the human error in the experiment was minimized, even though our value differed greatly compared to the literature value. This implies that, while our group was consistent in all our measurements, we used incorrect assumptions for classifying the bending of the spaghetti.
+Where \textbf{P} is the bucking force, \textbf{E} is the young's modulus, \textbf{L} is the length of the sample, and \textbf{D} is the diameter of the sample.\\
+\tab Particularly the exponents of the diameter, m, and the length, n. After testing three different pasta at various lengths, we plotted the log of length vs log of force, which yielded an average slope of -2.1 for n with a standard deviation of 0.33 (Fig. 1). This is very close to the expected slope of -2, within one standard deviation. The log of diameter vs log of force plot yielded an average slope of 3.1 for m (Fig. 2) with a standard deviation of 0.52, which is withing 2 standard deviations of the expected slope of 4. We then used our data generated in lab and the buckling equation to solve for the Young's Modulus.
+\begin{equation}
+E=\frac{4P^3D^mL^n}{\pi ^3}
+\end{equation}
+\tab We averaged the Young's modulus associated with the different lengths and types of pasta to get a Young's Modulus of $2.32 GPa \pm 0.22 GPa$. The Young's Modulus of spaghetti is 5.0 GPa (expected). This is very inaccurate - more than 10 standard deviations away. Our results differed greatly compared to the literature value of spaghetti. This is probably due to the extreme human error in finding weight needed to make the spaghetti bend.\\
+\tab Although our Young's Modulus was very precise, it was highly inaccurate because of how it deviates from the literature values. This is due to inaccuracy of which we were conducting the experiment to measure the buckling force. We used calipers to measure diameter of the different types of spaghetti, which has an uncertainty of 0.5mm, making this measurement highly accurate. However, the scale had an uncertainty of 0.001kg associated with it, which is similar to the weight of the heaviest pasta strand we measured (0.0012kg).The scale's uncertainty was a major contributor to the error that happened within this experiment as well as human error.  To find the n value of the buckling of spaghetti, we measured various lengths using a ruler that had an uncertainty of 0.05cm. The main error in our measurements was from the visual detection of noticeable deflection in spaghetti. A person cannot judge by eye the same exact bending in the spaghetti and record the weight that is exerted associated with the bending. We also had a different person measure the buckling force for each type of spaghetti. Not only is each person’s judgement of the buckling force extremely different, but we also cut the spaghetti differently, with two people using a knife, while another measured the 2cm increment and broke spaghetti at the marked spot. We didn't expect our values to be close the literature value of spaghetti because before starting the experiment, we noted how large human error and the scale inaccuracy would be in this experiment. The preciseness of our measurement shows that the human error in the experiment was minimized, even though our value differed greatly compared to the literature value. This implies that, while our group was consistent in all our measurements, we used incorrect assumptions for classifying the bending of the spaghetti.
 
 \section{Error Analysis}
 
-Our buckling load equation is
+\tab Our buckling load equation is
 $$P = \frac{E\pi ^3D^3}{4L^2}$$
 $$E = \frac{4PL^2}{\pi ^3D^4}$$
 
-We can confirm the powers by plotting the data on log scales.
+\tab We can confirm the powers by plotting the data on log scales.
 
 \begin{figure}[h]
-	\begin{minipage}{0.5\textwidth}
-		\centering
-		\includegraphics[scale=0.3]{Lab1f1.png}
-		\caption{Average for slopes = -2.1}
-	\end{minipage}%
-	\begin{minipage}{0.5\textwidth}
-		\centering
-		\includegraphics[scale=0.3]{Lab1f3.png}
-		\caption{Average for slopes = 3.6}
-	\end{minipage}
+	\centering
+	\includegraphics[scale=0.8]{Lab1f1_2.png}
+	\caption{Average for slopes = -2.1}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.8]{Lab1f2_2.png}
+	\caption{Average for slopes = 3.6}
 \end{figure}
 
-Solving for E using our equation, we get 30 values from all our data points. Averaging the E values, we get 2.32 GPa.
-
-The ruler we used had an error of $\pm$ 0.5mm, and the scale had an error of $\pm$ 1g. Converting error from the scale into Newtons, it becomes $\pm$ 0.0098N.
-
-Error propagation given by
+Solving for E using our equation, we get 30 values from all our data points. Averaging the E values, we get 2.32 GPa.\\
+\tab The ruler we used had an error of $\pm$ 0.5mm, and the scale had an error of $\pm$ 1g. Converting error from the scale into Newtons, it becomes $\pm$ 0.0098N.\\
+\tab Error propagation given by
 $$\frac{\delta E}{E} = \frac{4}{\pi ^3}\sqrt{(\frac{4\delta L}{L})^2 + (\frac{2\delta D}{D})^2 + (\frac{\delta P}{P})^2}$$
 
 $$\frac{\delta E}{E} = \frac{4}{\pi ^3}\sqrt{(\frac{4(0.05cm)}{L})^2 + (\frac{2(0.05cm)}{D})^2 + (\frac{(0.001kg)}{P})^2}$$
-
-I found $\frac{\delta e}{E}$ values for all 30 data points, then averaged all of them to get $\frac{\delta E}{E}$ = 0.0967. Multiplying by the value for E we found, we get $\delta E$ = 224 MPa. This results in $$2.32GPa \pm 0.22GPa$$
+\tab I found $\frac{\delta e}{E}$ values for all 30 data points, then averaged all of them to get $\frac{\delta E}{E}$ = 0.0967. Multiplying by the value for E we found, we get $\delta E$ = 224 MPa. This results in $$2.32GPa \pm 0.22GPa$$
 
 \section{Appendix}
 \centering

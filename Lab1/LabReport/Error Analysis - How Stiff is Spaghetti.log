@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  1 OCT 2016 04:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  24 OCT 2016 11:38
 entering extended mode
 **"./Error Analysis - How Stiff is Spaghetti.tex"
 ("Error Analysis - How Stiff is Spaghetti.tex"
@@ -334,19 +334,19 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 cfg")) ("Error Analysis - How Stiff is Spaghetti.aux")
 \openout1 = `"Error Analysis - How Stiff is Spaghetti.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 15.
 
 ("C:\Users\Bijan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -374,15 +374,15 @@ ii"
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(65.04256pt, 484.20988pt, 65.04256pt)
+* v-part:(T,H,B)=(65.04256pt, 664.88487pt, 65.04256pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=484.20988pt
+* \textheight=664.88487pt
+* \oddsidemargin=-7.22743pt
+* \evensidemargin=-7.22743pt
+* \topmargin=-44.22743pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -401,16 +401,16 @@ ii"
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 16.
+(Font)              <14.4> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 17.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -422,32 +422,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-<Lab1YM.png, id=13, 451.6875pt x 295.1025pt>
-File: Lab1YM.png Graphic file (type png)
- <use Lab1YM.png>
-Package pdftex.def Info: Lab1YM.png used on input line 43.
-(pdftex.def)             Requested size: 135.5073pt x 88.53142pt.
- [3 <./Lab1YM.png (PNG copy)>] [4] <Lab1f1.png, id=23, 421.575pt x 316.18124pt>
-File: Lab1f1.png Graphic file (type png)
- <use Lab1f1.png>
-Package pdftex.def Info: Lab1f1.png used on input line 72.
-(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 
-<Lab1f3.png, id=24, 421.575pt x 316.18124pt>
-File: Lab1f3.png Graphic file (type png)
- <use Lab1f3.png>
-Package pdftex.def Info: Lab1f3.png used on input line 77.
-(pdftex.def)             Requested size: 126.47346pt x 94.8551pt.
- [5 <./Lab1f1.png (PNG copy)> <./Lab1f3.png (PNG copy)>] [6] [7]
+[3] [4] <Lab1f1_2.png, id=22, 421.575pt x 316.18124pt>
+File: Lab1f1_2.png Graphic file (type png)
+ <use Lab1f1_2.png>
+Package pdftex.def Info: Lab1f1_2.png used on input line 67.
+(pdftex.def)             Requested size: 337.26045pt x 252.94533pt.
+
+<Lab1f2_2.png, id=23, 421.575pt x 316.18124pt>
+File: Lab1f2_2.png Graphic file (type png)
+ <use Lab1f2_2.png>
+Package pdftex.def Info: Lab1f2_2.png used on input line 72.
+(pdftex.def)             Requested size: 337.26045pt x 252.94533pt.
+ [5 <./Lab1f1_2.png (PNG copy)>] [6 <./Lab1f2_2.png (PNG copy)>] [7] [8]
 ("Error Analysis - How Stiff is Spaghetti.aux") ) 
 Here is how much of TeX's memory you used:
  1909 strings out of 493634
- 26351 string characters out of 3135240
- 97148 words of memory out of 3000000
+ 26344 string characters out of 3135240
+ 95190 words of memory out of 3000000
  5293 multiletter control sequences out of 15000+200000
- 14177 words of font info for 35 fonts, out of 3000000 for 9000
+ 15803 words of font info for 37 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,8n,32p,1915b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,32p,1920b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Bijan/AppData/Local/
 Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/Bijan/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Bija
@@ -460,10 +458,10 @@ type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX
 ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Bijan/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Bijan/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Error Analysis - How Stiff is Spaghetti.pdf" (7 pages, 18043
-6 bytes).
+Output written on "Error Analysis - How Stiff is Spaghetti.pdf" (8 pages, 14918
+3 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
