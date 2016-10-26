@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  25 OCT 2016 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  25 OCT 2016 20:51
 entering extended mode
-**./LabNotebook9-29-2016.tex
-(LabNotebook9-29-2016.tex
+**./LabNotebook10-6-2016.tex
+(LabNotebook10-6-2016.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ("C:\Users\Bijan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -295,8 +295,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-) (LabNotebook9-29-2016.aux)
-\openout1 = `LabNotebook9-29-2016.aux'.
+) (LabNotebook10-6-2016.aux)
+\openout1 = `LabNotebook10-6-2016.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -332,32 +332,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 27.
  [1
 
 {C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(LabNotebook9-29-2016.aux) ) 
+[2] (LabNotebook10-6-2016.aux) ) 
 Here is how much of TeX's memory you used:
- 1348 strings out of 493634
- 17418 string characters out of 3135240
- 72350 words of memory out of 3000000
- 4762 multiletter control sequences out of 15000+200000
+ 1346 strings out of 493634
+ 17390 string characters out of 3135240
+ 72348 words of memory out of 3000000
+ 4760 multiletter control sequences out of 15000+200000
  7587 words of font info for 27 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,19p,234b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bijan/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Bijan/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bija
-n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
-:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr17.pfb>
-Output written on LabNotebook9-29-2016.pdf (1 page, 58086 bytes).
+ 27i,6n,19p,294b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bijan/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
+Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+b>
+Output written on LabNotebook10-6-2016.pdf (2 pages, 53919 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
