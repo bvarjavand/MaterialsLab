@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  25 OCT 2016 23:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  26 OCT 2016 00:09
 entering extended mode
-**./solo.tex
-(solo.tex
+**./2b_HardnessTesting.tex
+(2b_HardnessTesting.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ("C:\Users\Bijan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -452,8 +452,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
-) (solo.aux)
-\openout1 = `solo.aux'.
+) (2b_HardnessTesting.aux)
+\openout1 = `2b_HardnessTesting.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -497,15 +497,15 @@ ii"
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(65.04256pt, 484.20988pt, 65.04256pt)
-* v-part:(T,H,B)=(65.04256pt, 664.88487pt, 65.04256pt)
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 686.56499pt, 54.2025pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=484.20988pt
-* \textheight=664.88487pt
-* \oddsidemargin=-7.22743pt
-* \evensidemargin=-7.22743pt
-* \topmargin=-44.22743pt
+* \textwidth=505.89pt
+* \textheight=686.56499pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-55.06749pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -539,9 +539,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
- (solo.out) (solo.out)
+ (2b_HardnessTesting.out) (2b_HardnessTesting.out)
 \@outlinefile=\write3
-\openout3 = `solo.out'.
+\openout3 = `2b_HardnessTesting.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 15.
@@ -549,394 +549,52 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 15.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
-[1
+ [1
 
 {C:/Users/Bijan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 18.
 
-
-LaTeX Warning: File `bcc.png' not found on input line 33.
-
-
-! Package pdftex.def Error: File `bcc.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 		\includegraphics[scale=.5]{bcc.png}
-                                          
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
-("C:\Users\Bijan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
-
-LaTeX Warning: File `fcc.png' not found on input line 37.
-
-
-! Package pdftex.def Error: File `fcc.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 		\includegraphics[scale=.6]{fcc.png}
-                                          
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 31--39
-[]$[]$ $[]$ 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 42.
 ("C:\Users\Bijan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
-
-LaTeX Warning: File `"dense direction".png' not found on input line 46.
-
-
-! Package pdftex.def Error: File `"dense direction".png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 ...egraphics[scale=.6]{"dense direction".png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `grain.png' not found on input line 62.
-
-
-! Package pdftex.def Error: File `grain.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 	\includegraphics[scale=.6]{grain.png}
-                                           
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: File `TransAnnealedSteel.png' not found on input line 73.
-
-
-! Package pdftex.def Error: File `TransAnnealedSteel.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...graphics[scale=.5]{TransAnnealedSteel.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `LongAnnealedSteel.png' not found on input line 77.
-
-
-! Package pdftex.def Error: File `LongAnnealedSteel.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 ...egraphics[scale=.5]{LongAnnealedSteel.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `LongARSteel.png' not found on input line 81.
-
-
-! Package pdftex.def Error: File `LongARSteel.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 ...ncludegraphics[scale=.28]{LongARSteel.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 24.
 [2
 
-] [3]
-
-LaTeX Warning: File `optical1.jpg' not found on input line 107.
-
-
-! Package pdftex.def Error: File `optical1.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 		\includegraphics[scale=.2]{optical1.jpg}
-                                                
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `optical2.jpg' not found on input line 111.
-
-
-! Package pdftex.def Error: File `optical2.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 		\includegraphics[scale=1.1]{optical2.jpg}
-                                                 
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 105--113
-[]$[]$ $[]$ 
- []
-
-[4]
-
-LaTeX Warning: File `LASteelGrains.jpg' not found on input line 129.
-
-
-! Package pdftex.def Error: File `LASteelGrains.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.129 ...udegraphics[scale=.16]{LASteelGrains.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `TASteelGrains.jpg' not found on input line 133.
-
-
-! Package pdftex.def Error: File `TASteelGrains.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 ...udegraphics[scale=.17]{TASteelGrains.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `LARSteelGrains.jpg' not found on input line 137.
-
-
-! Package pdftex.def Error: File `LARSteelGrains.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 ...degraphics[scale=.22]{LARSteelGrains.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `TARSteelGrains.jpg' not found on input line 141.
-
-
-! Package pdftex.def Error: File `TARSteelGrains.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 ...degraphics[scale=.21]{TARSteelGrains.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `compLASteelGrains.png' not found on input line 150.
-
-
-! Package pdftex.def Error: File `compLASteelGrains.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 ...graphics[scale=.4]{compLASteelGrains.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `hyperu.png' not found on input line 184.
-
-
-! Package pdftex.def Error: File `hyperu.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.184 	\includegraphics[scale=.2]{hyperu.png}
-                                             
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: File `bragg.png' not found on input line 198.
-
-
-! Package pdftex.def Error: File `bragg.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 	\includegraphics[scale=.4]{bragg.png}
-                                            
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5]
-
-LaTeX Warning: File `SteelXRD.jpg' not found on input line 221.
-
-
-! Package pdftex.def Error: File `SteelXRD.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 		\includegraphics[scale=.06]{SteelXRD.jpg}
-                                                 
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `ALXRD.png' not found on input line 225.
-
-
-! Package pdftex.def Error: File `ALXRD.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.225 		\includegraphics[scale=.3]{ALXRD.png}
-                                             
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 219--227
-[]$[]$ $[]$ 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6]
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 238--278
-[]$[]$ $[]$ 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
- (solo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
-Package rerunfilecheck Info: File `solo.out' has not changed.
-(rerunfilecheck)             Checksum: 06D81D9B82E594962C0624FF8462DD37;821.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 286.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+ (2b_HardnessTesting.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
+Package rerunfilecheck Info: File `2b_HardnessTesting.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 5770 strings out of 493634
- 85455 string characters out of 3135240
- 177715 words of memory out of 3000000
- 9054 multiletter control sequences out of 15000+200000
- 17031 words of font info for 38 fonts, out of 3000000 for 9000
+ 5665 strings out of 493634
+ 84356 string characters out of 3135240
+ 171727 words of memory out of 3000000
+ 9003 multiletter control sequences out of 15000+200000
+ 12757 words of font info for 31 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,11n,32p,1013b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,32p,614b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname/8r
 .enc}<C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Bijan/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bijan/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Bij
-an/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/c
-ourier/ucrr8a.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/urw/times/utmb8a.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmr8a.pfb>
-Output written on solo.pdf (7 pages, 138003 bytes).
+nts/cm/cmmi10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on 2b_HardnessTesting.pdf (3 pages, 43613 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 37 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
