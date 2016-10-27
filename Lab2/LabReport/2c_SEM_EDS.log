@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  27 OCT 2016 04:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  27 OCT 2016 12:21
 entering extended mode
 **./2c_SEM_EDS.tex
 (2c_SEM_EDS.tex
@@ -566,7 +566,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 <2cf1.png, id=16, 446.16687pt x 286.57062pt>
 File: 2cf1.png Graphic file (type png)
  <use 2cf1.png>
-Package pdftex.def Info: 2cf1.png used on input line 74.
+Package pdftex.def Info: 2cf1.png used on input line 75.
 (pdftex.def)             Requested size: 312.31468pt x 200.59805pt.
 
 
@@ -575,7 +575,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <2cf2.png, id=18, 448.17438pt x 252.44313pt>
 File: 2cf2.png Graphic file (type png)
  <use 2cf2.png>
-Package pdftex.def Info: 2cf2.png used on input line 80.
+Package pdftex.def Info: 2cf2.png used on input line 81.
 (pdftex.def)             Requested size: 313.71992pt x 176.70897pt.
 
 
@@ -584,16 +584,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Al_2kx_e.png, id=19, 341.34908pt x 273.07927pt>
 File: Al_2kx_e.png Graphic file (type png)
  <use Al_2kx_e.png>
-Package pdftex.def Info: Al_2kx_e.png used on input line 87.
+Package pdftex.def Info: Al_2kx_e.png used on input line 88.
 (pdftex.def)             Requested size: 170.67412pt x 136.53929pt.
 
 <Al_500x_e.png, id=20, 341.34908pt x 273.07927pt>
 File: Al_500x_e.png Graphic file (type png)
  <use Al_500x_e.png>
-Package pdftex.def Info: Al_500x_e.png used on input line 91.
+Package pdftex.def Info: Al_500x_e.png used on input line 92.
 (pdftex.def)             Requested size: 170.67412pt x 136.53929pt.
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 85--93
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 86--94
 []$[]$ $[]$ 
  []
 
@@ -604,17 +604,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: steel_brittle_2kx_e.png Graphic file (type png)
 
 <use steel_brittle_2kx_e.png>
-Package pdftex.def Info: steel_brittle_2kx_e.png used on input line 99.
+Package pdftex.def Info: steel_brittle_2kx_e.png used on input line 100.
 (pdftex.def)             Requested size: 170.67412pt x 136.53929pt.
 
 <steel_brittle_500x_e.png, id=22, 341.34908pt x 273.07927pt>
 File: steel_brittle_500x_e.png Graphic file (type png)
 
 <use steel_brittle_500x_e.png>
-Package pdftex.def Info: steel_brittle_500x_e.png used on input line 103.
+Package pdftex.def Info: steel_brittle_500x_e.png used on input line 104.
 (pdftex.def)             Requested size: 170.67412pt x 136.53929pt.
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 97--105
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 98--106
 []$[]$ $[]$ 
  []
 
@@ -625,42 +625,51 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: steel_ductile_2kx_e.png Graphic file (type png)
 
 <use steel_ductile_2kx_e.png>
-Package pdftex.def Info: steel_ductile_2kx_e.png used on input line 111.
+Package pdftex.def Info: steel_ductile_2kx_e.png used on input line 112.
 (pdftex.def)             Requested size: 170.67412pt x 136.53929pt.
 
 <steel_ductile_500x_e.png, id=24, 341.34908pt x 273.07927pt>
 File: steel_ductile_500x_e.png Graphic file (type png)
 
 <use steel_ductile_500x_e.png>
-Package pdftex.def Info: steel_ductile_500x_e.png used on input line 115.
+Package pdftex.def Info: steel_ductile_500x_e.png used on input line 116.
 (pdftex.def)             Requested size: 170.67412pt x 136.53929pt.
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 109--117
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 110--118
 []$[]$ $[]$ 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+<2cEDS.png, id=25, 465.23813pt x 400.99812pt>
+File: 2cEDS.png Graphic file (type png)
+ <use 2cEDS.png>
+Package pdftex.def Info: 2cEDS.png used on input line 123.
+(pdftex.def)             Requested size: 418.71043pt x 360.89496pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 [3
 
 ] [4 <./2cf1.png> <./2cf2.png> <./Al_2kx_e.png> <./Al_500x_e.png>] [5 <./steel_
 brittle_2kx_e.png> <./steel_brittle_500x_e.png> <./steel_ductile_2kx_e.png> <./
-steel_ductile_500x_e.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+steel_ductile_500x_e.png>] [6 <./2cEDS.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (2c_SEM_EDS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `2c_SEM_EDS.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
- 5694 strings out of 493634
- 84754 string characters out of 3135240
- 176734 words of memory out of 3000000
- 9019 multiletter control sequences out of 15000+200000
+ 5701 strings out of 493634
+ 84832 string characters out of 3135240
+ 177734 words of memory out of 3000000
+ 9023 multiletter control sequences out of 15000+200000
  11131 words of font info for 29 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  29i,8n,32p,1046b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -670,9 +679,9 @@ nts/cm/cmmi7.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmr5.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Bijan/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 2c_SEM_EDS.pdf (5 pages, 6414784 bytes).
+Output written on 2c_SEM_EDS.pdf (6 pages, 6494996 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

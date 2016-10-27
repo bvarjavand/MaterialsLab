@@ -21,11 +21,11 @@ The two materials used were 1018 as-received steel and 6061 as-received aluminum
 
 The Charpy toughness tester was calibrated to 60 ft-lbs. The samples were loaded with their indent facing away from the impact site, and their temperatures were measured beforehand with a thermocouple. Out of the 10 samples tested for both steel and aluminum, data was only collected on the samples that completely or nearly fractured from the impact. Thus resulted in the data shown in tables 1 and 2. 
 
-Three samples were chosen to image - an Aluminum sample and two steel samples(one with a brittle fracture, one with a ductile fracture). The samples were loaded together and the TA assisted my group in collecting the images. We initially observed the samples at a resolution of 500x, and after finding a suitable spot on the sample, took two images - the first at the current magnification, and the second at 2000x. This imaging protocol was followed for samples of Aluminum, steel that underwent brittle fracture, and steel that underwent ductile fracture. Scale bars were included in the images. EDS data was collected by a separate script. After the raw data was generated, thresholding and manual input of elements needed to be done. After, the software was able to generate percentage-based composition of the material(Table 3).
+Three samples were chosen to image - an Aluminum sample and two steel samples(one with a brittle fracture, one with a ductile fracture). The samples were loaded together and the TA assisted my group in collecting the images. We initially observed the samples at a resolution of 500x, and after finding a suitable spot on the sample, took two images - the first at the current magnification, and the second at 2000x. This imaging protocol was followed for samples of Aluminum, steel that underwent brittle fracture, and steel that underwent ductile fracture. Scale bars were included in the images. EDS data was collected by a separate script. After the raw data was generated, thresholding and manual input of elements needed to be done. After, the software was able to generate plots showing material composition(Fig 6). The associated table 3 shows that the steel contains 1.6\%C and 97.8\%Fe, while the aluminum contains 95.5\%Al, among other elements. Any error is from thresholding.
 
 It can be seen that, for the FCC Aluminum, the energy absorbed remained relatively constant - all values such as 6.5, 7.5, and 8.5 lie within a single power of ten across temperatures from -62C to 117C(Table 1). We know that the aluminum underwent a ductile fracture because of the SEM images that showed significant plastic deformation at the fracture surface as well as necking. Conversely, a shift can be seen in the BCC steel as it absorbs significantly more energy at higher temperatures, growing from 4 up to 28 in the -59C to 11C temperature range(Table 2). The estimated temperature range for the ductile-brittle transition temp is between -15C and -5C. This can be seen as the inflection point in our graph(Figure 1). The literature value for the transition temperature is 5C. This is acceptably close, taking into account the significant error associated with the lab.
 
-The main source of error in this lab is from the Charpy toughness tester. This is because the indicator dial shifted during the recording of every measurement. Our group had to infer what the values were by looking closely during the impact. This error is seen especially in the aluminum plot(Figure 2) with how much the data varied when it should have been approximately constant. The SEM had very low error, only due to small vibrations during measurement. The EDS error was associated with thresholding, but only threw off the percents a little bit.
+The main source of error in this lab is from the Charpy toughness tester. This is because the indicator dial shifted during the recording of every measurement. Our group had to infer what the values were by looking closely during the impact. This error is seen especially in the aluminum plot(Figure 2) with how much the data varied when it should have been approximately constant. The SEM had very low error, only due to small vibrations during measurement.
 
 \clearpage
 
@@ -60,11 +60,12 @@ Appendix:\\
 \begin{table}[h]
 \centering
 \caption{EDS data}
-\begin{tabular}{||c | c | c | c | c | c||}
+\begin{tabular}{||c | c | c | c | c | c | c||}
 	\hline
-	\ 	& Elements & 2 & 3 & 4 & 5\\
+	\ 				&	C	& Fe & Al & O & Mg & Si\\
 	\hline \hline
-	Percent		& 10 & 12.2 & 15 & 3 & 11\\
+	Aluminum		& 0.88 & 0 & 95.5 & 0.78 & 1.78 & 1.06\\
+	Steel			& 1.64 & 97.8 & 0 & 0 & 0 & 0.59\\
 	\hline
 \end{tabular}
 \end{table}
@@ -115,6 +116,12 @@ Appendix:\\
 		\includegraphics[scale=0.5]{steel_ductile_500x_e.png}
 	\end{minipage}
 	\caption{Ductile Steel at 2000 and 500 magnifications.}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.9]{2cEDS.png}
+	\caption{EDS spectrum for Al and steel}
 \end{figure}
 
 \end{document}
