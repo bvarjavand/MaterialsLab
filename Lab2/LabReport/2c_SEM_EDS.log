@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  27 OCT 2016 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.7)  27 OCT 2016 13:12
 entering extended mode
 **./2c_SEM_EDS.tex
 (2c_SEM_EDS.tex
@@ -668,7 +668,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
 Here is how much of TeX's memory you used:
  5701 strings out of 493634
  84832 string characters out of 3135240
- 177734 words of memory out of 3000000
+ 177761 words of memory out of 3000000
  9023 multiletter control sequences out of 15000+200000
  11131 words of font info for 29 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -679,7 +679,7 @@ nts/cm/cmmi7.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmr5.pfb><C:/Users/Bijan/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Bijan/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 2c_SEM_EDS.pdf (6 pages, 6494996 bytes).
+Output written on 2c_SEM_EDS.pdf (6 pages, 6495366 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)

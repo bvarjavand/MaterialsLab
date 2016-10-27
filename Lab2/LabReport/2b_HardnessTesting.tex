@@ -6,7 +6,7 @@
 \usepackage{hyperref}
 \renewcommand{\baselinestretch}{1.5}
 
-\author{Bijan Varjavand}
+\author{Bijan Varjavand\\ Kevin Necochea, Grace Hao}
 \title{Lab 2b: Hardness Testing\\Group 2d}
 
 \begin{document}
@@ -19,11 +19,11 @@ Hardness is a measure of how resistant a material is to plastic deformation. It 
 
 The samples used to test hardness were 1018 as-received and annealed steel, and 6061 as-received and annealed Aluminum. The annealed samples were tested with the Vickers hardness tester, and were prepared by mounting and polishing. Our samples that were tested with the Rockwell hardness tester, were taken from the previous tensile testing our group did. Using the ConfiDent software with a 50x magnification allowed the software to recognize the spacing between the indenter and the sample. This lets it directly calculate hardness from indentation size. The indent size was measured after indentation manually, setting D1 and D2. The as-received aluminum required a superficial Rockwell scale because it was too soft for the full load, thus using 15 kg. The calibration on a puck resulted in 77.9 $\pm$ 1 HRB. After data analysis, observation of our hardnesses prompted a readjustment of our values. We used Rockwell scale A, changing the major load to 60 kg. The accepted calibration value was 25.5 $\pm$ 1 HRB.
 
-The data from our Vickers hardness tests are shown in table 1. A few calculations were necessary to convert data. The equation used to find Vicker's hardness was $HV=\frac{1.854P}{d^2}$, where P is the indenting pressure in kg and d is the mean width of indent. Unfortunately our annealed steel sample was misplaced, so we calculated Vickers hardness on another group's sample (AJ's group). The tables only show 5 out of the 10 values in order to preserve space. Our Vickers hardness for annealed steel, as received aluminum, and annealed aluminum were 122.6 $\pm$ 1.52 HRB, 102.3 $\pm$ 5.2, and 392. $\pm$ 1.3 HRA. Literature values are 107, \_, and 104 - giving percent errors 4.39, \_, and 17.88. These differences in value are probably due to the human error in annealing the samples as well as in measuring the D values.
+The data from our Vickers hardness tests are shown in table 1. A few calculations were necessary to convert data. The equation used to find Vicker's hardness was $HV=\frac{1.854P}{d^2}$, where P is the indenting pressure in kg and d is the mean width of indent. Unfortunately our annealed steel sample was misplaced, so we calculated Vickers hardness on another group's sample (AJ's group). The tables only show 5 out of the 10 values in order to preserve space. Our Vickers hardness for annealed steel, as received aluminum, and annealed aluminum were 122.6 $\pm$ 1.52 HRB, 102.3 $\pm$ 5.2, and 392. $\pm$ 1.3 HRA. We converted these to HB(except for annealed Al, which was off the scale), giving us 115.2 $\pm$ 1.8 HB and 94 $\pm$ 4.7 HB. Literature values are 107, and 104 - giving percent errors 4.39, and 17.88. These differences in value are probably due to the human error in annealing the samples as well as in measuring the D values.
 
 The Rockwell hardness data is shown in table 2. As stated earlier, hardness data for annealed aluminum was unable to be collected due to it being too soft. Our Rockwell hardness for as-received steel, annealed steel, and as-received aluminum were 58.24 $\pm$ 1.64 HRB, 35.53 $\pm$ 1.46 HRB, and 39.65 $\pm$ 1.3 HRB. Literature values are 71, 58, and 60 - leading to percent error of 18.0, 38.7, and 28.9. These errors are likely due to the human error in the annealing process and sample prep.
 
-Calculating tensile strength and yield strength from our hardness values was possible using the relationships shown in equations 1 and 2, and conversion data can be seen in table 3. The tensile strength and yield strength for as-received steel, annealed steel, and as-received aluminum were 219 and 302 MPa.
+Calculating tensile strength and yield strength from our hardness values was possible using the relationships shown in equations 1 and 2, and conversion data can be seen in table 3. To find these values, we started with our HB values from the Vickers data. From there, we can use equations 1 and 2 to find yield strength and tensile strength. Data for as-received steel, aneealed steel, and as-received aluminum were 219.46, 262.6, and 204.2 MPa. The tensile strengths are 302.0, 357.0, and 282.1 MPa. Comparing these values to what we got in lab 2a, we got percent errors of 67.4, 10.2, and 12.3. Sources of error are actually not only in the procedure of the lab. While there is ever present error from annealing, hardness conversion equations are not constant, and one can get very different values using different conversion charts. This results in inherent error between values found in tension testing and converted values.
 \clearpage
 
 Appendix:\\
@@ -64,13 +64,13 @@ Appendix:\\
 \begin{tabular}{||c | c | c | c | c | c | c | c||}
 	\hline
 	\ 	&
-	1(HRB) & 2(HRB) & 3(HRB) & 4(HRB) & 5(HRB) & avg & std\\
+	1 & 2 & 3 & 4 & 5 & avg & std\\
 	\hline\hline
-	As-Received 1018 Steel		&
+	As-Received 1018 Steel(HRB)		&
 	58.6	&	58.3	&	58.2	&	58.5	&	58.3 & 58.24	& 1.64\\
-	Annealed 1018 Steel		&
+	Annealed 1018 Steel(HRB)		&
 	32.7	&	36.3	&	35.9	&	35.9	&	35.5 & 35.53 	& 1.46\\
-	As-Received 6061 Aluminum	&
+	As-Received 6061 Aluminum(HRB)	&
 	36.9	&	38.1	&	40.1	&	39.8	&	38.7 & 39.63 & 1.3\\
 	\hline
 \end{tabular}
@@ -79,19 +79,17 @@ Appendix:\\
 \begin{table}[h]
 \centering
 \caption{Hardness Conversion}
-\begin{tabular}{||c | c | c | c | c | c | c||}
+\begin{tabular}{||c | c | c | c | c||}
 	\hline
 	\ 	&
-	Rockwell (HB)& HB+3 & HV & HB & TS(MPa) & YS(MPa)\\
+	Yield Strength(MPa) & TS from HB(MPa) & TS from 2a(MPa) & \% error\\
 	\hline\hline
 	As-Received 1018 Steel		&
-	58.24	&	61.24	&	107.6	&	102.2	& 219.5	& 302.0\\
+	219.46	& 302.0	& 930.7 & 67.4\\
 	Annealed 1018 Steel		&
-	35.53	&	38.53	&	80	&	76	& 140.1	& 198.9\\
+	262.6	& 358.0	& 398.7 & 10.2\\
 	As-Received 6061 Aluminum	&
-	39.63	&	42.63	& 84.5	& 80.5	& 153.0	& 215.7\\
-	Annealed 6061 Aluminum	&
-	N/A & N/A & N/A & N/A & N/A & N/A\\
+	204.2	& 282.1 & 321.6 & 12.3\\
 	\hline
 \end{tabular}
 \end{table}
@@ -109,5 +107,16 @@ YS = Yield Strength, Hv = Hardness(in Vickers)
 TS = 3.55 * HB
 \end{equation}
 TS = Tensile Strength, HB = Brinell Hardness
+
+\ 
+
+References:\\
+
+1.	http://www.matweb.com/search/DataSheet.aspx?MatGUID=1b8c06d0ca7c456694c7777d9e10be5b
+
+2.	http://www.matweb.com/search/DataSheet.aspx?MatGUID=3a9cc570fbb24d119f08db22a53e2421 
+
+3.	http://www.matweb.com/search/DataSheet.aspx?MatGUID=aca5faa6647a414b8a062c67174fa4ab\&ckck=1 
+
 
 \end{document}
