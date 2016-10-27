@@ -15,17 +15,17 @@
 
 \clearpage
 
-Talk about hardness and how it is measured (different scales, units, equations). Describe in more detail the Vickers and Rockwell hardness tests (generally).
+Hardness is a measure of how resistant a material is to plastic deformation. It is dependent on materials properties such as toughness, strength, and ductility. The units of hardness depend on the method of measurement, but the common theme is a load in kg applied by a specifically shaped object. At the structural level, hardness can be classified into three categories - scratch hardness, indentation hardness, and rebound hardness. Each category of hardness has its own scales for measurement. The specific hardness tested in this lab was indentation hardness - the resistance to deformation from a sharp object at a single point. The scales relevant to indentation hardness include Rockwell hardness, Vickers hardness, and Brinell hardness. Impact toughness actually correlates linearly with tensile strength as well, which can be seen in the conversions done in the appendix. While strain hardening is a factor in the data due to the nature of the test, it is minimized with small enough indentations.
 
-Talk about sample prep.
+The samples used to test hardness were 1018 as-received and annealed steel, and 6061 as-received and annealed Aluminum. The 1018 annealed steel and 6061 annealed Aluminum were tested with the Vickers hardness tester, and were prepared by mounting and polishing. The 1018 as-received and annealed steel and 6061 as-received Aluminum were tested with the Rockwell hardness tester, from the previous tensile testing our group did.
 
-Procedure for Vickers test. Reference tables and figures, including lots of data. Aluminum data, then steel.
+Using the ConfiDent software with a 50x magnification. The magnification allowed the software to recognize the spacing between the indenter and the sample. This lets it directly calculate hardness from indentation size. The size was measured after indentation manually, setting D1 and D2.
 
-Procedure for Rockwell test. Reference tables and figures, including lots of data. Aluminum data, then steel.
+Annealed aluminum was too soft too measure with the Rockwell hardness test. The as-received aluminum required a superficial Rockwell scale because it was also too soft for the full load. The superficial scale used a major load of 15 kg. The calibration on a puck resulted in 77.9 $\pm$ 1 HRB. After data analysis, observation of our hardnesses prompted a readjustment of our values. We tested the hardness of our samples at 10 different locations each, taking care to space indents away from edges and each other. We used Rockwell scale A, changing the major load to 60 kg. The accepted value was 25.5 $\pm$ 1 HRB.
 
 Analysis of data, look at average and standard deviation. Compare to literature values. Convert to hardness in YS/TS and compare.
 
-Show results from calibrations? Compare with 2a values.
+Compare with 2a values.
 
 \clearpage
 
@@ -33,41 +33,78 @@ Appendix:\\
 
 \begin{table}[h]
 \centering
-\begin{tabular}{||c | c | c | c | c | c||}
+\caption{Vickers Hardness Data}
+\begin{tabular}{||c | c | c | c | c | c | c | c||}
 	\hline
 	\ 	&
-	1	&	2	&	3	&	4	&	5\\
+	1	&	2	&	3	&	4	&	5 & avg & std\\
 	\hline\hline
-	Annealed 1018 Steel		&
-	120	&	124	&	123	&	123	&	123\\
-	Annealed 6061 Aluminum	&
-	37	&	39	&	40	&	40	&	40\\
+	Annealed 1018 Steel	(HRB)	&
+	120	&	124	&	123	&	123	&	123 & 122.6 & 1.52\\
+	D1		&
+	121.7	& 119.4 & 114.7 & 119.4 & 119.4 & 118.9 & 2.56\\
+	D2		&
+	124.1	& 125.6	& 124.1	& 126.4	& 126.4 & 126.7 & 2.60\\
+	Annealed 6061 Aluminum(HRB)	&
+	37	&	39	&	40	&	40	&	40 & 39.2 & 1.3\\
+	D1		&
+	224.7	& 218.6 & 216.5 & 218.9 & 216.5 & 219.0 & 1.52\\
+	D2		&
+	225.2	& 219.2 & 214.6 & 213.4 & 213.4 & 217.1 & 1.52\\
 	\hline
 \end{tabular}
-\caption{Vicars Hardness Data}
 \end{table}
 
 \begin{table}[h]
 \centering
-\begin{tabular}{||c | c | c | c | c | c||}
+\caption{Rockwell Hardness Data}
+\begin{tabular}{||c | c | c | c | c | c | c | c||}
 	\hline
 	\ 	&
-	1	&	2	&	3	&	4	&	5\\
+	1(HRB) & 2(HRB) & 3(HRB) & 4(HRB) & 5(HRB) & avg & std\\
 	\hline\hline
 	As-Received 1018 Steel		&
-	58.6	&	58.3	&	58.2	&	58.5	&	58.3\\
+	58.6	&	58.3	&	58.2	&	58.5	&	58.3 & 58.24	& 0.164\\
 	Annealed 1018 Steel		&
-	32.7	&	36.3	&	35.9	&	35.9	&	35.5\\
+	32.7	&	36.3	&	35.9	&	35.9	&	35.5 & 35.53 	& 1.46\\
 	As-Received 6061 Aluminum	&
-	36.9	&	38.1	&	40.1	&	39.8	&	38.7\\
+	36.9	&	38.1	&	40.1	&	39.8	&	38.7 & 39.63 & 1.3\\
 	\hline
 \end{tabular}
-\caption{Rockwell Hardness Data}
 \end{table}
 
-\begin{figure}[h]
-	\centering
-	%\includegraphics[scale=0.3]{wow.png}
-	\caption{Images}
-\end{figure}
+\begin{table}[h]
+\centering
+\caption{Hardness Conversion}
+\begin{tabular}{||c | c | c | c | c | c | c||}
+	\hline
+	\ 	&
+	Rockwell (HB)& HB+3 & HV & HB & TS(MPa) & YS(MPa)\\
+	\hline\hline
+	As-Received 1018 Steel		&
+	58.24	&	61.24	&	107.6	&	102.2	& 219.5	& 302.0\\
+	Annealed 1018 Steel		&
+	35.53	&	38.53	&	80	&	76	& 140.1	&	198.9\\
+	As-Received 6061 Aluminum	&
+	39.63	&	42.63	& 84.5	& 80.5	& 153.0	& 215.7 \\
+	Annealed 6061 Aluminum	&
+	N/A & N/A & N/A & N/A & N/A & N/A\\
+	\hline
+\end{tabular}
+\end{table}
+
+Equations:\\
+
+\textbf{Relating Yield Strength and Hv:}
+\begin{equation}
+YS = 3.55 * Hv
+\end{equation}
+YS = Yield Strength, Hv = Hardness(in Vickers)
+
+\textbf{Relating Tensile Strength and HB}
+\begin{equation}
+TS = 3.55 * HB
+\end{equation}
+TS = Tensile Strength, HB = Brinell Hardness
+
 \end{document}
